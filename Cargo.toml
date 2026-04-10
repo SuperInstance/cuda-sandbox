@@ -2,7 +2,12 @@
 name = "cuda-sandbox"
 version = "0.1.0"
 edition = "2021"
-description = "Sandbox — execution isolation, resource limits, fault containment, and safe experimentation for agents"
+description = "Resource limits, operation policies, snapshots, sandboxing"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-sandbox"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
